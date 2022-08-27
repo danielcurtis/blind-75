@@ -1,0 +1,19 @@
+# asm
+asm/**/**.o
+
+# c
+c/**/bin
+
+# js
+js/node_modules
+js/package-lock.json
+
+# py
+py/**/.pytest_cache
+py/**/__pycache__
+
+# ide
+.vscode
+
+# os
+**.DSStore
