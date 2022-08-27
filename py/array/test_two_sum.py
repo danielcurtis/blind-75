@@ -14,14 +14,7 @@
 # @complexity time O(n) space O(n)
 
 def two_sum(nums, target):
-    seenNums = {}
-
-    for i in range(len(nums)):
-        r = target - nums[i]
-        if r in seenNums:
-            return [seenNums[r], i]
-
-        seenNums[nums[i]] = i
+    # your solution goes here
 
 
 def test_answer():

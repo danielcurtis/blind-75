@@ -19,22 +19,9 @@
 #include <stdlib.h>
 
 int* two_sum(int* nums, int nums_size, int target) {
-  // @todo update to use hash table
-  int* indices = malloc(2 * sizeof(int));
-
-  for (int i = 0; i < nums_size; i++) {
-    for (int j = i + 1; j < nums_size; j++) {
-      if (nums[i] + nums[j] == target) {
-        indices[0] = i;
-        indices[1] = j;
-        return indices;
-      }
-    }
-  }
-
-  indices[0] = -1;
-  indices[1] = -1;
-  return indices;
+  /**
+   * your solution goes here
+   */
 }
 
 int main(void) {

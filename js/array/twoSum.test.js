@@ -16,18 +16,9 @@
  */
 
 function twoSum(nums, target) {
-  const seenNums = {};
-
-  for (let i = 0; i < nums.length; i++) {
-    const r = target - nums[i];
-    if (seenNums[r] !== undefined) {
-      return [seenNums[r], i];
-    }
-
-    seenNums[nums[i]] = i;
-  }
-
-  throw new Error('No answer found');
+  /**
+   * your solution goes here
+   */
 }
 
 test('testcase: nums = [2, 7, 11, 15], target = 9, ans = [0, 1]', () => {
