@@ -6,40 +6,15 @@
  * single day to buy one stock and choosing a different day in the
  * future to sell that stock. Return the maximum profit you can achieve
  * from this transaction. If you cannot achieve any profit, return 0.
- *
- * @solution iterate over prices tracking the highest and lowest prices
- * and the difference between the two. The difference should only be set
- * if it's larger than it was before. The high should be reset anytime a
- * higher number is encountered. The low and high should be reset anytime
- * a lower number is encountered.
- *
- * @complexity time O(n) space O(1)
  */
 #include <assert.h>
 #include <stdio.h>
 #include <stdlib.h>
 
 int max_profit(int* prices, int prices_size) {
-  int diff = 0;
-  int low = prices[0];
-  int high = prices[0];
-
-  for (int i = 0; i < prices_size; i++) {
-    if (high < prices[i]) {
-      high = prices[i];
-    }
-    if (low > prices[i]) {
-      low = prices[i];
-      high = prices[i];
-    }
-
-    int tmpDiff = high - low;
-    if (tmpDiff > diff) {
-      diff = tmpDiff;
-    }
-  }
-
-  return diff;
+  /**
+   * your answer here
+   */
 }
 
 int main(void) {
