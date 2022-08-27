@@ -56,7 +56,7 @@ int main(void) {
   assert(ans_thr[0] == 0 && ans_thr[1] == 1);
   free(ans_thr);
 
-  printf("two_sum.c success");
+  printf("two_sum.c success\n");
 
   return 0;
 }
