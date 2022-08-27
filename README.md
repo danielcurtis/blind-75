@@ -1,14 +1,14 @@
 # Blind 75
 
-A set of tests and solutions in every **important** language to the [curated list of algorithm and data structure questions](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU) known as Blind 75.
+A set of tests and solutions in C, Python and JavaScript to the [curated list of algorithm and data structure questions](https://www.teamblind.com/post/New-Year-Gift---Curated-List-of-Top-75-LeetCode-Questions-to-Save-Your-Time-OaM1orEU) known as Blind 75.
 
 The **main** branch contains my solutions. The **no-answers** branch contains tests without answers.
 
-See each language directory README for information on getting started.
+See each language directory README for information on running and testing locally.
 
 ## Array
 
-- Two Sum [ASM](./asm/array/two_sum.asm) [C](./c/array/two_sum.c) [JS](./js/array/twoSum.test.js) [PY](./py/array/test_two_sum.py)
+- Two Sum [C](./c/array/two_sum.c) [JS](./js/array/twoSum.test.js) [PY](./py/array/test_two_sum.py)
 - Best Time to Buy and Sell Stock - https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 - Contains Duplicate - https://leetcode.com/problems/contains-duplicate/
 - Product of Array Except Self - https://leetcode.com/problems/product-of-array-except-self/
