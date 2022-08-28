@@ -3,33 +3,15 @@
  *
  * @problem given an integer array nums, return true if any value appears
  * at least twice in the array, and return false if every element is distinct.
- *
- * @solution sort the array of numbers and then compare each element in the
- * against the next element in the array to see if there is a match.
- *
- * @complexity time O(n log n) space O(1)
  */
 #include <assert.h>
 #include <stdio.h>
 #include <stdlib.h>
 
-int compare_ints(const void* a, const void* b) {
-  int x = *((int*)a);
-  int y = *((int*)b);
-
-  return (x > y) - (x < y);
-}
-
 int contains_duplicate(int* nums, int nums_size) {
-  qsort(nums, nums_size, sizeof(int), compare_ints);
-
-  for (int i = 0; i < nums_size; i++) {
-    if (nums[i] == nums[i + 1]) {
-      return 1;
-    }
-  }
-
-  return 0;
+  /**
+   * your answer here
+   */
 }
 
 int main(void) {

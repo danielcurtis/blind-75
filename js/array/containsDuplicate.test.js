@@ -3,18 +3,12 @@
  *
  * @problem given an integer array nums, return true if any value appears
  * at least twice in the array, and return false if every element is distinct.
- *
- * @solution in JS it's possible to convert the array to a Set which only contains
- * unique values and then check the length of the set against the array length.
- * A language agnostic and O(1) space approach is to sort the array first (see C
- * implementation).
- *
- * @complexity time O(n) space O(n)
  */
 
 function containsDuplicate(nums) {
-  const uniqueNums = new Set(nums);
-  return uniqueNums.size !== nums.length;
+  /**
+   * your answer here
+   */
 }
 
 test('testcase: nums = [1, 2, 3, 1], return true', () => {

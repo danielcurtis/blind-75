@@ -2,17 +2,10 @@
 #
 # @problem given an integer array nums, return true if any value appears
 # at least twice in the array, and return false if every element is distinct.
-#
-# @solution in Python it's possible to convert the array to a set which only contains
-# unique values and then check the length of the set against the array length.
-# A language agnostic and O(1) space approach is to sort the array first (see C
-# implementation).
-#
-# @complexity time O(n) space O(n)
+
 
 def contains_duplicate(nums):
-    unique_nums = set(nums)
-    return len(unique_nums) != len(nums)
+    # your answer here
 
 
 def test_answer():
