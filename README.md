@@ -10,7 +10,7 @@ See each language directory README for information on running and testing locall
 
 - Two Sum [C](./c/array/two_sum.c) [JS](./js/array/twoSum.test.js) [PY](./py/array/test_two_sum.py)
 - Best Time to Buy and Sell Stock [C](./c/array/max_profit.c) [JS](./js/array/maxProfit.test.js) [PY](./py/array/test_max_profit.py)
-- Contains Duplicate - https://leetcode.com/problems/contains-duplicate/
+- Contains Duplicate [C](./c/array/contains_duplicate.c) [JS](./js/array/containsDuplicate.test.js) [PY](./py/array/test_contains_duplicate.py)
 - Product of Array Except Self - https://leetcode.com/problems/product-of-array-except-self/
 - Maximum Subarray - https://leetcode.com/problems/maximum-subarray/
 - Maximum Product Subarray - https://leetcode.com/problems/maximum-product-subarray/
