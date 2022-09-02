@@ -5,7 +5,11 @@
 # of any prefix or suffix of nums is guaranteed to fit in a 32-bit integer. The
 # solution must run in O(n) time without using the division operation.
 #
-# @solution iterate over the array tracking
+# @solution the product of all the elements except the current element is equal to
+# the sum of the elements on the left and right side of the current element when
+# looping. To track the values of the left and right sides, iterate over the numbers
+# tracking the left side first. Then loop over the array backwards tracking the right
+# side second.
 #
 # @complexity time O(n) space O(1) not counting returned array
 
