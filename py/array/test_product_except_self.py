@@ -5,22 +5,12 @@
 # of any prefix or suffix of nums is guaranteed to fit in a 32-bit integer. The
 # solution must run in O(n) time without using the division operation.
 #
-# @solution iterate over the array tracking
+# @solution
 #
-# @complexity time O(n) space O(1) not counting returned array
+# @complexity
 
 def product_except_self(nums):
-    products = [1]
-
-    for i in range(len(nums) - 1):
-        products.append(products[i] * nums[i])
-
-    right = 1
-    for i in range(len(nums), 0, -1):
-        products[i - 1] = products[i - 1] * right
-        right = right * nums[i - 1]
-
-    return products
+    # your answer here
 
 
 def test_answer():

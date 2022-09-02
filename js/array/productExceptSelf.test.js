@@ -6,26 +6,15 @@
  * of any prefix or suffix of nums is guaranteed to fit in a 32-bit integer. The
  * solution must run in O(n) time without using the division operation.
  *
- * @solution iterate over the array tracking
+ * @solution
  *
- * @complexity time O(n) space O(1) not counting returned array
+ * @complexity
  */
 
 function productExceptSelf(nums) {
-  let products = [];
-
-  products[0] = 1;
-  for (let i = 1; i < nums.length; i++) {
-    products[i] = products[i - 1] * nums[i - 1];
-  }
-
-  let right = 1;
-  for (let i = nums.length - 1; i >= 0; i--) {
-    products[i] = products[i] * right;
-    right = right * nums[i];
-  }
-
-  return products;
+  /**
+   * your answer here
+   */
 }
 
 test('testcase: nums = [1, 2, 3, 4], return [24, 12, 8, 6]', () => {

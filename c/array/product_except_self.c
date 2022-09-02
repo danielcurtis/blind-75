@@ -6,29 +6,18 @@
  * of any prefix or suffix of nums is guaranteed to fit in a 32-bit integer. The
  * solution must run in O(n) time without using the division operation.
  *
- * @solution iterate over the array tracking
+ * @solution
  *
- * @complexity time O(n) space O(1) not counting returned array
+ * @complexity
  */
 #include <assert.h>
 #include <stdio.h>
 #include <stdlib.h>
 
 int* product_except_self(int* nums, int nums_size) {
-  int* products = malloc(nums_size * sizeof(int));
-
-  products[0] = 1;
-  for (int i = 1; i < nums_size; i++) {
-    products[i] = products[i - 1] * nums[i - 1];
-  }
-
-  int right = 1;
-  for (int i = nums_size - 1; i >= 0; i--) {
-    products[i] = products[i] * right;
-    right = right * nums[i];
-  }
-
-  return products;
+  /**
+   * your answer here
+   */
 }
 
 int main(void) {
