@@ -11,7 +11,7 @@ See each language directory README for information on running and testing locall
 - Two Sum [C](./c/array/two_sum.c) [JS](./js/array/twoSum.test.js) [PY](./py/array/test_two_sum.py)
 - Best Time to Buy and Sell Stock [C](./c/array/max_profit.c) [JS](./js/array/maxProfit.test.js) [PY](./py/array/test_max_profit.py)
 - Contains Duplicate [C](./c/array/contains_duplicate.c) [JS](./js/array/containsDuplicate.test.js) [PY](./py/array/test_contains_duplicate.py)
-- Product of Array Except Self - https://leetcode.com/problems/product-of-array-except-self/
+- Product of Array Except Self - [C](./c/array/product_except_self.c) [JS](./js/array/productExceptSelf.test.js) [PY](./py/array/test_product_except_self.py)
 - Maximum Subarray - https://leetcode.com/problems/maximum-subarray/
 - Maximum Product Subarray - https://leetcode.com/problems/maximum-product-subarray/
 - Find Minimum in Rotated Sorted Array - https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
